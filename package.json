@@ -1,12 +1,11 @@
 {
   "scripts": {
-    "start": "mdx-deck BlockDRM.mdx",
+    "start": "mdx-deck edar.mdx",
     "build": "npm run now-build",
     "build:presentation": "mdx-deck build edar.mdx --no-html",
     "build:images": "cp -r images dist/",
-    "build:video": "cp -r video dist/",
 
-    "now-build": "npm run build:presentation && npm run build:images && npm run build:video && npm run build:assets",
+    "now-build": "npm run build:presentation && npm run build:images ",
     "deploy": "now"
   },
   "devDependencies": {
