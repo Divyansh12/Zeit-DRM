@@ -2,7 +2,7 @@
   "scripts": {
     "start": "mdx-deck BlockDRM.mdx",
     "build": "npm run now-build",
-    "build:presentation": "mdx-deck build edar.mdx --no-html",
+    "build:presentation": "mdx-deck build BlockDRM.mdx --no-html",
     "build:images": "cp -r images dist/",
 
     "now-build": "npm run build:presentation && npm run build:images ",
